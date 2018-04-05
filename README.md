@@ -5,7 +5,7 @@
 Loading pitch data file using pandas.read_csv </br>
 Data has 18 columns with 20067 rows
 ### Header 
-***GameId	PitcherId	HitterId	PitcherSide	HitterSide	PrimaryEvent	PitcherTeamId	HitterTeamId	PA	AB	H	2B	3B	HR	TB	BB	SF	HBP
+***GameId	PitcherId	HitterId	PitcherSide	HitterSide	PrimaryEvent	PitcherTeamId	HitterTeamId	PA	AB	H	2B	3B	HR	TB	BB	SF	HBP***
 
 Opening text file containing Combinations based on which we have to perform aggregations.
 
@@ -15,8 +15,9 @@ Iterating through each combination and forming dataframes by grouping based on v
 ## Step 3 Apply
 Sum is calculated for each variable that we are aggregating(ex: HitterID) </br></br>
 
-Four basic metrics are calculated from the aggregated data.</br>
-AVG – Batting average (also abbreviated AVG): hits divided by at bats (H/AB)    </br>
+Four basic metrics are calculated from the aggregated data.</br></br>
+
+AVG – Batting average (also abbreviated AVG): hits divided by at bats (H/AB)</br>
 
 OBP – On-base percentage: times reached base (H + BB + HBP) divided by at bats plus walks plus hit by pitch plus sacrifice flies (AB + BB + HBP + SF)</br>
 
