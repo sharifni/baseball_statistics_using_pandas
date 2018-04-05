@@ -1,2 +1,5 @@
-# baseball_statistics_using_pandas
-Performing statistical analysis of baseball game data using pandas
+# Performing statistical analysis of baseball game data using pandas
+
+
+## Step 1
+Loading pitch data file using pandas
